@@ -107,7 +107,7 @@ Work done in the [Probabilistic Machine Learning research group](https://researc
 
 ## Reference
 
- * Tomi Peltola, Mustafa Mert Çelikok, Pedram Daee, Samuel Kaski. **Machine Teaching of Active Sequential Learners**, NeurIPS 2019. https://arxiv.org/abs/1809.02869 (old version, to be updated)
+ * Tomi Peltola, Mustafa Mert Çelikok, Pedram Daee, Samuel Kaski. **Machine Teaching of Active Sequential Learners**, NeurIPS 2019. https://arxiv.org/abs/1809.02869
 
 
 ## License
