@@ -1,6 +1,8 @@
- * [paper](https://arxiv.org/abs/1809.02869)
+ * [paper](https://papers.nips.cc/paper/9299-machine-teaching-of-active-sequential-learners)
  * [poster](poster.pdf)
  * [code](https://github.com/AaltoPML/machine-teaching-of-active-sequential-learners/)
+
+An earlier version of the paper, titled *Modelling User's Theory of AI's Mind in Interactive Intelligent Systems*, with a larger focus on human-computer interaction and user modelling is available as [version 2 on arXiv](https://arxiv.org/abs/1809.02869v2).
 
 **Reference**:
 
