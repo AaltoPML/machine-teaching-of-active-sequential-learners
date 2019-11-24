@@ -17,3 +17,4 @@ NeurIPS 2019
 
 An earlier version of the paper, titled *Modelling User's Theory of AI's Mind in Interactive Intelligent Systems*, with a larger focus on human-computer interaction and user modelling is available as [version 2 on arXiv](https://arxiv.org/abs/1809.02869v2).
 
+Work done in the [Probabilistic Machine Learning research group](https://research.cs.aalto.fi/pml/) at [Aalto University](https://www.aalto.fi/en).
