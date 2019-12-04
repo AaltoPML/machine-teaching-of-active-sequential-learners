@@ -4,7 +4,7 @@
 
 ### Summary
 
- * How to steer an active machine learner that queries labels sequentially?
+ * How to steer (or **teach**) an active machine learner that queries labels sequentially?
  * We formulate the teaching problem as a Markov decision process, with label choice as action.
  * A teacher teaching with inconsistent labels can beat consistent labels.
  * We further endow the learner with a model of the teacher.
@@ -14,6 +14,12 @@
 
 ![Active learning example](active_learning_figure.png)  
 The figure shows an example of teaching effect on pool-based logistic regression active learner. The left-panel shows a pool of labelled data (dots and crosses) and a logistic regression decision boundary fit to the full pool (black line). The middle panel shows how an active learner, using uncertainty sampling to query labels for points in the data pool, fails to sample useful points in 10 iterations to learn a good decision boundary (starting from blue training data). As shown in the right panel, a planning teacher can steer the learner to sample more representative points by switching some labels (switched labels are shown in red).
+
+### Modelling strategic user behaviour in human-computer interaction
+
+<img alt="Modelling a user having a model of the system" src="interaction.png" align="right" />
+
+We apply the teacher model towards modelling active planning behaviour of users of interactive intelligent systems, such as recommendation systems. The figure on the right illustrates this: In the interaction between <span style="color: #0090ff;">the system</span> and <span style="color: #ff6600">a user</span>, <span style="color: #0090ff;">the system</span> has <span style="color: #aa4400;">a model of the user</span> having <span style="color: #0044aa;">a model of the system</span>. The <span style="color: #aa4400;">nested model of the user</span> is that of a teacher, trying to steer the system towards her goals, using <span style="color: #0044aa;">her mental model of the system</span>. Thus, in inferring the intent in the <span style="color: #ff6600">the user's</span> actions, <span style="color: #0090ff;">the system</span> interprets them as actively planned behaviour ("teaching"). Since the teacher model is a Markov decision process, the problem of inferring user's intent can be solved through inverse reinforcement learning.
 
 ### Abstract
 
