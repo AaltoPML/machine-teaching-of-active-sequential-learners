@@ -1,6 +1,7 @@
  * [paper](https://papers.nips.cc/paper/9299-machine-teaching-of-active-sequential-learners)
  * [poster](poster.pdf)
  * [code](https://github.com/AaltoPML/machine-teaching-of-active-sequential-learners/)
+ * [press release](https://fcai.fi/fcainews/2019/12/5/researchers-at-the-finnish-center-for-ai-developed-ai-that-understands-humans-goals-better)
 
 ### Summary
 
